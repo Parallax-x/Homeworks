@@ -17,3 +17,4 @@ settings_local.py
 
 ### OS specific ###
 .DS_Store
+/first-project/first_project/first_project_env/
