@@ -17,3 +17,4 @@ settings_local.py
 
 ### OS specific ###
 .DS_Store
+/1.2-requests-templates/recipes/recipes_env/
