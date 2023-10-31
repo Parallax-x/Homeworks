@@ -34,11 +34,8 @@ class Scope(models.Model):
 
     article = models.ForeignKey(Article, on_delete=models.CASCADE, related_name='scopes', verbose_name='Статья')
     tag = models.ForeignKey(Tag, on_delete=models.CASCADE, related_name='scopes', verbose_name='Тег')
-    is_main = models.BooleanField(default=True, verbose_name='Основной')
+    is_main = models.BooleanField(verbose_name='Основной')
 
     class Meta:
         verbose_name = 'Тематика статьи'
         verbose_name_plural = 'Тематики статьи'
-
-    def __str__(self):
-        return self.tag

@@ -16,6 +16,7 @@ class RelationshipInlineFormset(BaseInlineFormSet):
             # а пользователю выведется соответствующее сообщение об ошибке
             if not main:
                 raise ValidationError('Укажите основной раздел')
+            break
         return super().clean()  # вызываем базовый код переопределяемого метода
 
 
