@@ -15,9 +15,3 @@ class Measurement(models.Model):
     sensor = models.ForeignKey(Sensor, on_delete=models.CASCADE, related_name='measurements')
     temperature = models.FloatField()
     created_at = models.DateTimeField(auto_now=True)
-
-    # def save(self, *args, **kwargs):
-    #     if self.created_at:
-    #         self.created_at = models.DateTimeField(auto_now=True)
-    #         return super().save()
-

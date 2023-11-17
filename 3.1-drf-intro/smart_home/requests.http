@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
   "name": "ESP32",
-  "description": "Датчик в детской комнате"
+  "description": "Датчик в космосе"
 }
 
 ###
@@ -34,12 +34,12 @@ POST {{baseUrl}}/measurements/
 Content-Type: application/json
 
 {
-  "sensor": 1,
-  "temperature": 21.3
+  "sensor": 3,
+  "temperature": -270,
 }
 
 ###
 
 # получение информации по датчику
-GET {{baseUrl}}/sensors/1/
+GET {{baseUrl}}/sensors/3/
 Content-Type: application/json
