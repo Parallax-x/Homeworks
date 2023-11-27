@@ -14,14 +14,14 @@ Content-Type: application/json
 Authorization: Token 70e9045d09bca6f9d30ac9f1aa32f3e0cbec2c4f
 
 {
-  "title": "Нечто5",
-  "description": "Неведомое"
+  "title": "Нечто7",
+  "description": "Неведомое7"
 }
 
 ###
 
 # попытка поменять объявление
-PATCH {{baseUrl}}/advertisements/5/
+PATCH {{baseUrl}}/advertisements/15/
 Content-Type: application/json
 Authorization: Token 70e9045d09bca6f9d30ac9f1aa32f3e0cbec2c4f
 
@@ -67,7 +67,7 @@ Content-Type: application/json
 ###
 
 # попытка удалить
-DELETE {{baseUrl}}/advertisements/16/
+DELETE {{baseUrl}}/advertisements/20/
 Content-Type: application/json
 Authorization: Token 70e9045d09bca6f9d30ac9f1aa32f3e0cbec2c4f
 
